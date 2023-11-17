@@ -1,9 +1,3 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
-const cors = require('cors');
-app.use(cors());
-
 // Imagenes deben tener 600x600 en formato .jpg
 // Lista de productos
 const productos = [
@@ -109,14 +103,3 @@ const productos = [
   { id: 100, imagen: 'simple-api/imagenes/cinta_adhesiva_de_teflon.jpg', descripcion: 'Cinta Adhesiva de Teflón' },
   // Puedes agregar más productos según sea necesario
 ];
-
-
-// Ruta para obtener todos los productos
-app.get('/productos', (req, res) => {
-  res.json(productos);
-});
-
-// Ruta para la página de inicio
-app.get('/', (req, res) => {
-  res.send('Bienvenido a la API');
-});
