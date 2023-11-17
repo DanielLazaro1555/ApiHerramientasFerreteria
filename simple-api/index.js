@@ -120,7 +120,3 @@ app.get('/productos', (req, res) => {
 app.get('/', (req, res) => {
   res.send('Bienvenido a la API');
 });
-
-app.listen(port, () => {
-  console.log(`API escuchando en http://localhost:${port}`);
-});
