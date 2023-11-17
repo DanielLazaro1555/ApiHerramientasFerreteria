@@ -1,7 +1,7 @@
 // Imagenes deben tener 600x600 en formato .jpg
 // Lista de productos
 const productos = [
-  { id: 1, imagen: 'simple-api/imagenes/tornillo.jpg', descripcion: 'Tornillo' },
+  { id: 1, imagen: 'imagenes/tornillo.jpg', descripcion: 'Tornillo' },
   { id: 2, imagen: 'simple-api/imagenes/perno.jpg', descripcion: 'Perno' },
   { id: 3, imagen: 'simple-api/imagenes/martillo.jpg', descripcion: 'Martillo' },
   { id: 4, imagen: 'simple-api/imagenes/destornillador.jpg', descripcion: 'Destornillador' },
