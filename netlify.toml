@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/productos"
+  to = "/.netlify/functions/index"
+  status = 200
